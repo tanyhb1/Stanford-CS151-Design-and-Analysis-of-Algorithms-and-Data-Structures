@@ -1,0 +1,18 @@
+def my_sort(A):
+
+    p=A[0]                                       #determine pivot element. 
+    left=[]                                      #create left array
+    right=[]                                     #create right array
+    for i in range(1,len(A)):
+        #if cur elem is less than pivot, add elem in left array
+        if A[i]< p:
+            left.append(A[i])         
+          #the recurssion will occur only if the left array is atleast half the size of original array
+        if len(left)>1 and len(left)>=len(A)//2:          
+            left=my_sort(left)                            #recursive call
+        elif A[i]>p: 
+            right.append(A[i])                                #if elem is greater than pivot, append it to right array
+        if len(right)>1 and len(right)>=len(A)//2:        # recurssion will occur only if length of right array is atleast the size of original array
+            right=my_sort(right)
+    A=left+[p]+right                                        #append all three part of the array into one and return it
+    return A

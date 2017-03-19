@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;datastructures/algo1-programming_prob-2sum.txt&apos; to &apos;2sum.txt&apos;" description="Rename resource &apos;algo1-programming_prob-2sum.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="algo1-programming_prob-2sum.txt" name="2sum.txt" stamp="1488786652538" updateReferences="true"/>
+</session>

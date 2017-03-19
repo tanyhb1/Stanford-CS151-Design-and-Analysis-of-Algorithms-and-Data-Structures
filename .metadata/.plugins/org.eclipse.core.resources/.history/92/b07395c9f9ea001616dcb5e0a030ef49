@@ -1,0 +1,47 @@
+import csv
+
+def main():
+    a = []
+    x = Counter()
+    with open('QuickSort.txt') as inputfile:
+        a = inputfile.read().splitlines()
+    a = [1,2,3,4,5,6,7,8,9,10,22,33,44,55,66,2,1,4,5,6,7,3,2,5,34,45,345,235,345,234,234,235,345,32453,245,3245,2345,56,567,578,9,789,70,456,243,1324]
+    QuickSort(a, 0, len(a)-1, x)
+    print(a)
+    print(x.count)
+def QuickSort(array, left, right, x):
+    if right is None:
+        right = len(array)-1
+    if left>=right or left<0:
+        return(array)
+    x.count = x.count + right - left
+    
+
+
+                                                                        #makes pivot the first element in the array
+    CurrentPosition = PartitionArray(array, left, right)                                     #Current position of pivot
+    QuickSort(array, left, CurrentPosition-1, x)                                #try, confused if array will split if i slice an array
+    QuickSort(array, CurrentPosition+1, right, x)
+def PartitionArray(array, left, right):
+    pivot = array[left]
+    i = left+1
+    for j in range(left+1, right+1):
+        if array[j] < pivot:
+            array[j], array[i] = array[i], array[j]
+            i = i+1
+    array[left], array[i-1] = array[i-1], array[left]
+    return(i-1)
+
+
+def ChoosePivot(array, length):
+    return(0)
+    #to be implemented according to pset specs
+    
+class Counter(object):
+    count = 0
+    def counter(self):
+        self.count = self.count + 1
+
+    
+if __name__ == "__main__":
+    main()

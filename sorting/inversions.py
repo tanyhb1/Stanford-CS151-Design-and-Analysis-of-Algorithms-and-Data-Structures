@@ -1,0 +1,42 @@
+def main():
+    results = []
+    with open('IntegerArray.txt', newline='') as inputfile:
+        for line in inputfile:
+            results.append(int(line.strip()))
+    print(results)
+    x = Counter()
+    print(sort(results, x))
+    print(x.count)
+def sort(x, counter):
+    if len(x) == 1:
+        return(x)
+    else:
+        middle = int(len(x)/2)
+        left = sort(x[:middle], counter)
+        right = sort(x[middle:], counter)
+        return(merge(left, right, counter))
+        
+def merge(left, right, x):
+    i, j = 0, 0
+    c = []
+
+    while(i<len(left) and j<len(right)):
+        if left[i] < right[j]:
+            c.append(left[i])
+            i = i + 1
+        else:
+            c.append(right[j])
+            x.count = x.count+(len(left)-i)
+            j = j + 1
+    c.extend(left[i:])
+    c.extend(right[j:])
+    return(c)
+class Counter(object):
+    count = 0
+    def counter(self):
+        self.count = self.count + 1
+
+    
+if __name__ == '__main__':
+    main()
+    

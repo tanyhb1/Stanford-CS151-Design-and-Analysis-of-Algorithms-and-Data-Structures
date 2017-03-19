@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;graphs/asdf.yp&apos; to &apos;asdf.py&apos;" description="Rename resource &apos;asdf.yp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="asdf.yp" name="asdf.py" stamp="1489474978599" updateReferences="true"/>
+</session>

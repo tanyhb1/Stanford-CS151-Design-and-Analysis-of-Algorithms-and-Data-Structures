@@ -1,0 +1,11 @@
+def main():
+    #run EdgeContraction for n^2 ln n times, saving the minimum cut it returns
+    n = []
+    edge = []
+    with open('kargerMinCut.txt') as data:
+        for line in data:
+            print(line.strip().split('    '))
+
+
+if __name__ == "__main__":
+    main()

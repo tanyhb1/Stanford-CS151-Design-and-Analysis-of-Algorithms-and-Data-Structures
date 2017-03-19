@@ -1,0 +1,6 @@
+asdf = ['12345', '345435', '1523', '15123']
+for i in range(0, len(asdf)):
+    if '123' in asdf[i]:
+        print(asdf[i])
+xcf = [[1,3], [2,5]]
+print(xcf[0][1])

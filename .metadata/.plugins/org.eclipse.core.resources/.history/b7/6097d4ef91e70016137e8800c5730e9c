@@ -1,0 +1,47 @@
+import csv
+
+def main():
+    results = []
+    with open('IntegerArray.txt', newline='') as inputfile:
+        for row in csv.reader(inputfile):
+            results.append(row)
+    x = Counter()
+    print(sort(results, x))
+    print(x.count)
+    print(a)
+def sort(x, counter):
+    if len(x) == 1:
+        return(x)
+    else:
+        middle = len(x)/2
+        left = sort(x[:int(middle)], counter)
+        right = sort(x[int(middle):], counter)
+        return(merge(left, right, counter))
+        
+def merge(left, right, x):
+    i, j = 0, 0
+    c = []
+    global a
+    while(len(c) < len(left) + len(right)):
+        if left[i] < right[j]:
+            c.append(left[i])
+            i = i + 1
+        else:
+            c.append(right[j])
+            j = j + 1
+            x.count = x.count+(len(left)-i)
+            a = a (len(left)-i)
+            print(x.count)
+        if i == len(left) or j == len(right):
+            c.extend(left[i:] or right[j:])
+            break
+    return(c)
+class Counter(object):
+    count = 0
+    def counter(self):
+        self.count = self.count + 1
+
+    
+if __name__ == '__main__':
+    main()
+    

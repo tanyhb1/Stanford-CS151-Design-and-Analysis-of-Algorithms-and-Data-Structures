@@ -1,0 +1,35 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\User\Desktop\b\.metadata\.plugins\org.eclipse.core.resources\.projects\experimenting\com.python.pydev.analysis\v2_indexcache
+karatsuba|1485841436484358000|C:\Users\User\Desktop\b\experimenting\karatsuba.py
+asd|1487684127836627000|C:\Users\User\Desktop\b\experimenting\asd.py
+simple_sorting_bubbleandselection.__init__|1486895199053840000|C:\Users\User\Desktop\b\experimenting\simple_sorting_bubbleandselection\__init__.py
+test|1488881907737882000|C:\Users\User\Desktop\b\experimenting\test.py
+simple_sorting_bubbleandselection.py|1487063027053204000|C:\Users\User\Desktop\b\experimenting\simple_sorting_bubbleandselection\py.py
+hello|1486820910890171000|C:\Users\User\Desktop\b\experimenting\hello.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+5=karatsuba
+1=asd
+4=test
+2=simple_sorting_bubbleandselection.py
+3=hello
+-- END DICTIONARY
+-- START TREE 1
+11
+a|1|a!11@
+c|1|c!19@
+che|1|Checker!26@
+end|1|end!19@
+fac|1|factorial!34@
+kar|1|karatsuba!42@
+mai|3|main!34@main!26@main!42@
+min|1|minimum!19@
+n|1|n!11@
+spl|1|split!42@
+sta|1|start!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

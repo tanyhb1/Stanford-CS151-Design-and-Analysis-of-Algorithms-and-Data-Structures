@@ -1,0 +1,80 @@
+import timer
+
+def main():
+    n = int(input().strip())
+    vowels = ['a','e','i','o','u']
+    consonants = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z']
+    storage_cv = []
+    storage_vc = []
+    if n == 1:
+        for v in vowels:
+            print(v)
+        for c in consonants:
+            print(c)
+    else:
+        vc, cv = melodious(vowels, consonants)
+        if n == 2:
+            for v in vc:
+                print(v)
+            for c in cv:
+                print(c)
+        else:
+            if n == 567:
+                pass
+            else:
+                for i in range((n//2)):
+                    storage_cv = storage_cv + cv
+                    storage_vc = storage_vc + vc
+            if n == 4:
+                for x in storage_cv:
+                    for y in storage_cv:
+                        print(x+y)
+                for x in storage_vc:
+                    for y in storage_vc:
+                        print(x+y)
+            elif n == 6:
+                for x in storage_cv:
+                    for y in storage_cv:
+                        for i in consonants:
+                            for j in vowels:
+                                print(x+y+i+j) 
+                for x in storage_vc:
+                    for y in storage_vc:
+                        for i in vowels:
+                            for j in consonants:
+                                print(x+y+i+j) 
+            elif n == 3:
+                print(storage_cv)
+                for x in storage_cv:
+                    for y in consonants:
+                        print(x+y)
+                for x in storage_vc:
+                    for y in vowels:
+                        print(x+y)
+            elif n == 5:
+                print(storage_cv)
+                for x in storage_cv:
+                    for y in storage_cv:
+                        for z in consonants:
+                            print(x+y+z)
+                for x in storage_vc:
+                    for y in storage_vc:
+                        for z in vowels:
+                            print(x+y+z)
+                                
+                
+def melodious(vowels, consonants):
+    vc = []
+    cv = []  
+    for v in vowels:
+        for c in consonants:
+            ans_vc = ''
+            ans_cv = ''
+            ans_vc = ans_vc + (v + c)
+            ans_cv = ans_cv + (c + v)
+            vc.append(ans_vc)
+            cv.append(ans_cv)
+    return(vc, cv)
+        
+if __name__ == '__main__':
+    main()

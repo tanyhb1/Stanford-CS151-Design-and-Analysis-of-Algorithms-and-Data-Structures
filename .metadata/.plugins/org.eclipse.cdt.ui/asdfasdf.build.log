@@ -1,0 +1,7 @@
+13:48:53 **** Rebuild of configuration Debug for project asdfasdf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+gcc -o asdfasdf.exe hello.o 
+
+13:48:53 Build Finished (took 446ms)
+

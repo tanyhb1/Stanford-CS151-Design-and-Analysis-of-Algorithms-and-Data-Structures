@@ -1,0 +1,20 @@
+def main():
+    n = int(input().strip())
+    vowels = ['a','e','i','o','u']
+    consonants = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z']
+    
+    if n == 1:
+        for v in vowels:
+            print(v)
+        for c in consonants:
+            print(c)
+    else:
+        print(melodious(vowels, consonants))
+def melodious(vowels, consonants):
+    ans = ''
+    for v in vowels:
+        for c in consonants:
+            ans = ans + v + c
+    return(ans)    
+if __name__ == '__main__':
+    main()

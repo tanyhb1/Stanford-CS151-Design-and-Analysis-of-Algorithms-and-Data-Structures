@@ -1,0 +1,40 @@
+
+def main():
+    x = int(input("Please enter a number with an even amount of digits "))
+    y = int(input("Please enter the number you want to multiply it by "))
+    print('{:f}'.format(karatsuba(x,y)))
+def karatsuba(x, y):
+    if (len(str(x)) == 1 or len(str(y)) == 1):
+        return(x*y)
+    else:
+        n = max(len(str(y)), len(str(x)))
+
+        a, b = split(x, len(str(x)))
+        c, d = split(y, len(str(y)))
+        ac = karatsuba(a, c)
+        bd = karatsuba(b, d)
+        bc_plus_ad = karatsuba(a+b,c+d)-ac-bd
+        print(ac, bd, bc_plus_ad,)
+        if n%2 == 0:
+            answer = (10**(n))*(ac) + (10**(n/2))*(bc_plus_ad) + bd   
+        elif n%2 == 1:
+            answer = (10**(n))*(ac) + (10**((n-1)/2))*(bc_plus_ad) + bd
+        return answer
+def split(x, n):
+    if n%2 == 0:
+        a = x%(10**(n/2))
+        b = (x-a)/(10**(n/2))
+        return(int(b),int(a))
+    elif n%2 == 1:
+        if n == 1:
+            a = x%(10**(n/2))
+            b = (x-a)/(10**(n/2))
+            return(int(b),int(a))
+        a = x%(10**(n+1)/2)
+        b = (x-a)/(10**(n+1)/2)
+        return(int(b),int(a))
+    ##thought: return 03 75 instead of 37 5?
+if __name__ == '__main__':
+    main()
+    
+

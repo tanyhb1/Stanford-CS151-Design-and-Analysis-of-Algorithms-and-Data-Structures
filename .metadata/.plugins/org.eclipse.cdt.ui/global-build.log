@@ -1,0 +1,20 @@
+13:42:00 **** Incremental Build of configuration Debug for project asdf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o asdf.o "..\\asdf.c" 
+gcc -o asdf.exe asdf.o 
+Info: Nothing to build for asdf
+Info: Nothing to build for asdf
+13:48:52 **** Rebuild of configuration Debug for project asdf.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o asdf.o "..\\asdf.c" 
+..\asdf.c: In function 'main':
+..\asdf.c:7:8: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("please enter a value %d", x);
+        ^
+gcc -o asdf.c.exe asdf.o 
+13:48:53 **** Rebuild of configuration Debug for project asdfasdf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hello.o "..\\hello.c" 
+gcc -o asdfasdf.exe hello.o 
+Info: Nothing to build for asdf.c
+Info: Nothing to build for asdf.c

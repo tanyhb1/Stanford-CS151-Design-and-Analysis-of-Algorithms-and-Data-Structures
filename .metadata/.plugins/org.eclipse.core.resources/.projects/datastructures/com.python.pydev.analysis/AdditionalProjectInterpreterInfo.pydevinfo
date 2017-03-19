@@ -1,0 +1,28 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\User\Desktop\b\.metadata\.plugins\org.eclipse.core.resources\.projects\datastructures\com.python.pydev.analysis\v2_indexcache
+2sumiterative|1488787350146127000|C:\Users\User\Desktop\b\datastructures\2sumiterative.py
+2sumhash|1488797007095710000|C:\Users\User\Desktop\b\datastructures\2sumhash.py
+asdf|1488797212124340000|C:\Users\User\Desktop\b\datastructures\asdf.py
+heap|1488791914331316000|C:\Users\User\Desktop\b\datastructures\heap.py
+medianmaintenance|1488795202368313000|C:\Users\User\Desktop\b\datastructures\medianmaintenance.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+4=2sumiterative
+5=2sumhash
+3=asdf
+1=heap
+2=medianmaintenance
+-- END DICTIONARY
+-- START TREE 1
+5
+ext|1|extract_min!10@
+hea|2|heap_delete!10@heap_insert!10@
+mai|4|main!18@main!26@main!34@main!42@
+thr|1|thread!43@
+two|2|two_sum!34@TwoSum_HashTable!26@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

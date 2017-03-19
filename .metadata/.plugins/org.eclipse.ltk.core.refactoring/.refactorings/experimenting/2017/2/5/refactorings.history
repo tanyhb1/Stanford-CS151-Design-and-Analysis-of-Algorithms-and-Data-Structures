@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;experimenting/quicksort&apos; to &apos;quicksort.py&apos;" description="Rename resource &apos;quicksort&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="quicksort" name="quicksort.py" stamp="1486216827195" updateReferences="true"/>
+</session>

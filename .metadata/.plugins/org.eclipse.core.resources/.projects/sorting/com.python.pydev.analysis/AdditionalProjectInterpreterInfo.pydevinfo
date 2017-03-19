@@ -1,0 +1,47 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\User\Desktop\b\.metadata\.plugins\org.eclipse.core.resources\.projects\sorting\com.python.pydev.analysis\v2_indexcache
+timer|1488895582116000000|C:\Users\User\Desktop\b\sorting\timer.py
+quicksort2|1488895731885272000|C:\Users\User\Desktop\b\sorting\quicksort2.py
+inversions|1486295454236000000|C:\Users\User\Desktop\b\sorting\inversions.py
+rselect|1486919449665000000|C:\Users\User\Desktop\b\sorting\rselect.py
+quicksort|1486383431333000000|C:\Users\User\Desktop\b\sorting\quicksort.py
+quicksort3|1488895759106183000|C:\Users\User\Desktop\b\sorting\quicksort3.py
+dselect|1486918890471405000|C:\Users\User\Desktop\b\sorting\dselect.py
+mergesort|1488895741998967000|C:\Users\User\Desktop\b\sorting\mergesort.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+6=timer
+5=quicksort2
+9=Counter
+3=inversions
+10=Counter.counter
+7=rselect
+1=quicksort
+4=quicksort3
+2=dselect
+8=mergesort
+-- END DICTIONARY
+-- START TREE 1
+15
+cho|2|ChoosePivot!10@ChoosePivot!18@
+cou|4|Counter!25@Counter!33@Counter!9@Counter!41@
+dse|1|DSelect!18@
+end|1|endlog!50@
+lin|1|line!51@
+log|1|log!50@
+mai|7|main!34@main!42@main!10@main!58@main!66@main!18@main!26@
+mer|2|merge!26@merge!66@
+now|1|now!50@
+par|5|PartitionArray!34@PartitionArray!18@PartitionArray!42@PartitionArray!58@PartitionArray!10@
+qui|3|QuickSort!10@QuickSort!42@QuickSort!34@
+rse|1|RSelect!58@
+sec|1|secondsToStr!50@
+sor|2|sort!66@sort!26@
+sta|1|start!51@
+-- END TREE
+-- START TREE 2
+1
+cou|12|count!9&35@count!10&35@counter!9&34@count!9&27@counter!9&26@count!10&27@counter!9&10@count!9&11@count!10&11@count!9&43@count!10&43@counter!9&42@
+-- END TREE

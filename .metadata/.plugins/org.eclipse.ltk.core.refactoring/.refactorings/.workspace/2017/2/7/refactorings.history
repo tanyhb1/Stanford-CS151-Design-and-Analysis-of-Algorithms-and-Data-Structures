@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;experimenting/simple_sorting_bubbleandselection/rcontraction.py&apos;" deleteContents="false" description="Delete resource &apos;experimenting/simple_sorting_bubbleandselection/rcontraction.py&apos;" element1="/experimenting/simple_sorting_bubbleandselection/rcontraction.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1486982280776"/>
+</session>

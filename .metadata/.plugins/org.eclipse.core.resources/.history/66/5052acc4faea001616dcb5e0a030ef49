@@ -1,0 +1,8 @@
+def main():
+    my_sort([12,4,5,6,7,3,1,15])
+
+def my_sort(A):
+
+    qsort = lambda x=None, *xs: [] if x is None else qsort(*[a for a in xs if a<x]) + [x] + qsort(*[a for a in xs if a>=x])
+if __name__ == "__main__":
+    main()

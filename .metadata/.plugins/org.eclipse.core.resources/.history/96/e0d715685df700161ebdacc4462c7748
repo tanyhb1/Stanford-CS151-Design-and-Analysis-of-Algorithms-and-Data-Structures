@@ -1,0 +1,8 @@
+def main():
+    graph = [0, 1, 0, 2, 1, 3, 2, 3, 2, 4, 3, 4, 3, 5, 4, 5]
+    edges = [[g[x], g[x+1]] for x in range(0, len(g), 2)]
+    DFS(graph, graph[0], edges)
+def DFS(g, s):
+
+if __name__ == '__main__':
+    main()

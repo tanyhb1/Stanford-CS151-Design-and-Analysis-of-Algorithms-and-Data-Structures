@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;experimenting/dselect&apos; to &apos;dselect.py&apos;" description="Rename resource &apos;dselect&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="dselect" name="dselect.py" stamp="1486893778209" updateReferences="true"/>
+</session>

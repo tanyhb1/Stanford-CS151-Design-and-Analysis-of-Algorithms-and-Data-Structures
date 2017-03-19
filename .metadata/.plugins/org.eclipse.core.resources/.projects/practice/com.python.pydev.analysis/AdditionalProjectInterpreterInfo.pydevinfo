@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE_2
+C:\Users\User\Desktop\b\.metadata\.plugins\org.eclipse.core.resources\.projects\practice\com.python.pydev.analysis\v2_indexcache
+timer|1488895582116030000|C:\Users\User\Desktop\b\practice\timer.py
+practice|1489573014752992000|C:\Users\User\Desktop\b\practice\practice.py
+cleanup|1486034692819881000|C:\Users\User\Desktop\b\practice\cleanup.py
+cielab|1486031660260158000|C:\Users\User\Desktop\b\practice\cielab.py
+adsf|1487416566642000000|C:\Users\User\Desktop\b\practice\adsf.py
+quicksort3|1488895709216241000|C:\Users\User\Desktop\b\practice\quicksort3.py
+horses|1486387789670557000|C:\Users\User\Desktop\b\practice\horses.py
+-- END DISKCACHE
+-- START DICTIONARY
+9
+3=timer
+7=practice
+8=Counter
+4=cleanup
+9=Counter.counter
+6=cielab
+1=adsf
+2=quicksort3
+5=horses
+-- END DICTIONARY
+-- START TREE 1
+13
+N|1|N!11@
+com|1|command!11@
+cou|1|Counter!17@
+end|1|endlog!26@
+lin|1|line!27@
+log|1|log!26@
+mai|5|main!34@main!18@main!42@main!50@main!58@
+my_|1|my_list!11@
+now|1|now!26@
+par|1|PartitionArray!18@
+qui|1|QuickSort!18@
+sec|1|secondsToStr!26@
+sta|1|start!27@
+-- END TREE
+-- START TREE 2
+1
+cou|3|count!8&19@count!9&19@counter!8&18@
+-- END TREE
