@@ -1,1 +1,1 @@
-'# stanford-s_cs151_algorithms' 
+Stanford CS151 Design and Analysis of Algorithms
