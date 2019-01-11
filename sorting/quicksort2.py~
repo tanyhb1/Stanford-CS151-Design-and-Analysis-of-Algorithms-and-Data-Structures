@@ -1,7 +1,7 @@
 def main():
     a = []
     x = Counter()
-    with open('QuickSort.txt') as data:
+    with open('Documents/YNC/other/Stanford-CS151-Design-and-Analysis-of-Algorithms-and-Data-Structures/sorting/QuickSort.txt') as data:
         for line in data:
             a.append(int(line.strip()))
     QuickSort(a, 0, len(a)-1, x)

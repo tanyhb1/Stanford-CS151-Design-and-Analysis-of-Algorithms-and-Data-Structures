@@ -41,4 +41,3 @@ def split(x, n, check):
 if __name__ == '__main__':
     main()
     
-
